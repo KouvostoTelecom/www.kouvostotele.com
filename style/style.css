@@ -1,0 +1,30 @@
+body{
+    background-image: url(/style/pics/tausta.jpg)
+}
+.logo {
+    width: 100px
+}
+.menu {
+    width: 700px;
+}
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    background-image: url(/style/pics/menu-tausta.gif);
+    text-align: center;
+}
+.menu li a {
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 30px;
+}
+.otsikko {
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    <table style="width: 100%"> 
+        <tr>
+            <td rowspan=2></td>
+            <td class="logo">
+                <a href="/"><img src="/style/pics/logo.jpg" width=70/></a>
+            </td>
+            <td class="menu">
+                <ul>
+                    <li><a href="/">Etusivu / Frontpage</a>
+                    <li><a href="/tuotteet.html">Tuotteet / Products</a>
+                    <li><a href="/yhteystiedot.html">Yhteystiedot / Contact</a>
+                </ul>
+            </td>
+            <td rowspan=2></td>
+        </tr>
+        <tr>
+            <td colspan=2>
+                {{ content }}
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
